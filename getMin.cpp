@@ -13,7 +13,7 @@ int getMin(int arr[], int size){
 
 int main(){
 
-    int arr[] = {1,5,8,9,65,7};
+    int arr[6] = {1,5,8,9,65,7};
     cout << getMin(arr, 6);
 
     return 0;
