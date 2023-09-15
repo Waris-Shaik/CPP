@@ -2,8 +2,8 @@
 using namespace std;
 
 int getMin(int arr[], int size){
-    int min = arr[0];
-    for(int i=1; i<size; i++){
+    int min = INT_MAX;
+    for(int i=0; i<size; i++){
         if(arr[i] < min){
             min = arr[i];
         }
