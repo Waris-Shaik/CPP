@@ -34,5 +34,5 @@ cout << getMin(arr,6);
   
     
  
-    return 0;
+    return 0; 
 }
