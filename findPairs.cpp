@@ -36,7 +36,7 @@ int findPairs(int arr[], int n, int sum)
 int main()
 {
 
-    int arr[6] = {1, 5, 7, 10, 11, 16};
+    int arr[6] = {1, 5, 7, 10, 11, 16}; // sorted Array
     cout << findPairs(arr, 6, 17);
 
     return 0;
